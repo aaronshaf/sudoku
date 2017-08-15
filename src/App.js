@@ -86,6 +86,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Sudoku generator</h1>
         <div>
           <button
             disabled={this.state.grid.solved}
