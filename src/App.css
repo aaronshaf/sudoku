@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 24px;
+}
+
+button {
+  font-size: 1.3rem;
+  margin-right: 6px;
+}
+
+.Grid {
+  margin-top: 12px;
+  border: 1px solid #111;
+  display: inline-block;
+}
+
+.Cell {
+  padding: 2px;
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.Cell:last-of-type {
+  /*border: none;*/
+}
+
+.Block {
+  display: block;
+  border: 1px solid #111;
+}
+
+.GridRow {
+  display: flex;
+}
+
+.BlockRow {
+  display: flex;
+}
