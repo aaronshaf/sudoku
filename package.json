@@ -1,6 +1,6 @@
 {
   "name": "sudoku",
-  "homepage": "http://aaronshaf.github.io/sudoku",
+  "homepage": "http://aaronshaf.github.io/sudoku/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
